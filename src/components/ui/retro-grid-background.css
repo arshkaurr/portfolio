@@ -1,0 +1,82 @@
+.retro-grid {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.retro-grid__beam,
+.retro-grid__gradient {
+  position: absolute;
+  inset: 0;
+}
+
+.retro-grid__beam {
+  background: radial-gradient(circle at top, rgba(242, 197, 124, 0.2), transparent 60%);
+}
+
+.retro-grid__gradient {
+  background: linear-gradient(
+    to bottom,
+    rgba(253, 243, 231, 0) 0%,
+    rgba(253, 243, 231, 0.2) 50%,
+    rgba(43, 33, 31, 0.63) 100%
+  );
+}
+
+.retro-grid__plane {
+  position: absolute;
+  top: -65%;
+  left: 50%;
+  height: 220%;
+  width: 160%;
+  transform-origin: top;
+  transform: translateX(-50%) perspective(1400px) rotateX(67deg);
+}
+
+.retro-grid__grid {
+  position: absolute;
+  inset: 0;
+  opacity: 0.8;
+  background-image: linear-gradient(
+      to right,
+      rgba(226, 115, 61, 0.35) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      to bottom,
+      rgba(226, 115, 61, 0.35) 1px,
+      transparent 1px
+    );
+  background-size: 80px 80px;
+  transform-style: preserve-3d;
+  animation: retro-grid-move 12s linear infinite;
+}
+
+.retro-grid__spotlight {
+  position: absolute;
+  inset: 0;
+  mix-blend-mode: screen;
+  transition: transform 0.5s ease, background 0.5s ease;
+  will-change: transform, background;
+}
+
+.retro-grid__glow {
+  position: absolute;
+  inset: 0;
+  opacity: 0.45;
+  filter: blur(48px);
+  transition: background-position 0.3s ease;
+  will-change: background;
+}
+
+@keyframes retro-grid-move {
+  from {
+    background-position: 0 0, 0 0;
+  }
+
+  to {
+    background-position: 0 80px, 80px 0;
+  }
+}
