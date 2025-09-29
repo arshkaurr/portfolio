@@ -40,10 +40,7 @@ export default function App() {
             <div className="w-4 h-4 bg-purple-500"></div>
           </div>
           <p className="text-lg font-black">
-            © 2025 ARSHDEEP KAUR. BUILT WITH ❤️ AND COFFEE.
-          </p>
-          <p className="text-sm mt-2">
-            Designed with brutalist aesthetics and retro vibes
+            © 2025 ARSHDEEP KAUR. built with ❤️ and coffee.
           </p>
         </div>
       </footer>
