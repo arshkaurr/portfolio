@@ -1,9 +1,9 @@
 
-  # my portfolio
+  # My portfolio website
 
   This is a code bundle for my portfolio website. 
-  Designed + (vibe) coded with with figma and AI codex
-  Deployed using vercel
+  Designed + (vibe) coded with with figma and AI codex.
+  Deployed using vercel.
 
   ## Running the code
   
