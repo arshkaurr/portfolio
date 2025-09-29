@@ -18,6 +18,10 @@ export function Projects() {
       highlights: [
         "Engineered APIs using Supabase and PostgreSQL to automate vendor checks, reducing due diligence time by 60%"
       ],
+      link: {
+        href: "https://drive.google.com/file/d/1Pu6QSW2ClZg3em3bRcolzeS73srP9z-p/view?usp=sharing",
+        label: "Click here to see what QuickFi had to say!"
+      },
       color: "bg-cyan-400",
       date: "March - May 2025"
     },
@@ -78,6 +82,19 @@ export function Projects() {
                     </li>
                   ))}
                 </ul>
+
+                {project.link && (
+                  <div className="mt-6">
+                    <a
+                      href={project.link.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center font-black text-sm gap-2"
+                    >
+                      <span className="border-b-2 border-current pb-0.5">{project.link.label}</span>
+                    </a>
+                  </div>
+                )}
               </div>
             </div>
           ))}
