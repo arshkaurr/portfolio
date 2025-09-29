@@ -1,5 +1,5 @@
 import nailsOne from "@/assets/nails1.JPG";
-import nailsTwo from "@/assets/nails2.jpg";
+import pressons from "@/assets/pressons.png";
 import nailsThree from "@/assets/nails3.jpg";
 
 import { ImageWithFallback } from "./figma/ImageWithFallback";
@@ -7,7 +7,7 @@ import { ImageWithFallback } from "./figma/ImageWithFallback";
 export function NailArt() {
   const nailArtImages = [
     { src: nailsOne, alt: "Nail art look 1" },
-    { src: nailsTwo, alt: "Nail art look 2", objectPosition: "center 60%" },
+    { src: pressons, alt: "Nail art look 2", objectPosition: "center 60%" },
     { src: nailsThree, alt: "Nail art look 3" }
   ];
 
@@ -78,12 +78,12 @@ export function NailArt() {
             <h3 className="text-3xl font-black mb-6">SPECIALTIES</h3>
             <div className="space-y-4">
               {[
-                "Geometric patterns",
-                "Abstract designs", 
-                "Color gradients",
-                "Minimalist styles",
-                "Bold graphics",
-                "Custom requests"
+                "GelX",
+                "Builder Gel", 
+                "Press ons",
+                "Maximalist styles",
+                "3D art",
+                "Lots of colors!!"
               ].map((specialty, idx) => (
                 <div key={idx} className="bg-black text-white px-4 py-2 font-bold inline-block mr-2 mb-2">
                   {specialty}
