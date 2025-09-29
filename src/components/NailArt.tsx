@@ -1,6 +1,6 @@
 import nailsOne from "@/assets/nails1.JPG";
 import pressons from "@/assets/pressons.png";
-import nailsThree from "@/assets/nails3.jpg";
+import nailsThree from "@/assets/nailedit.JPEG";
 
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 
@@ -27,19 +27,18 @@ export function NailArt() {
           <p className="text-xl leading-relaxed">
             Where <span className="bg-pink-500 text-black px-2 py-1 font-black">CREATIVITY</span> meets 
             <span className="bg-cyan-400 text-black px-2 py-1 font-black ml-2">PRECISION</span>. 
-            My nail art combines geometric patterns, bold colors, and technical skill 
-            - just like my approach to coding!
+            My nail art combines geometric patterns, bold colors, and technical skill. Like coding!
           </p>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
           {nailArtImages.map((image, index) => (
             <div key={index} className={`transform ${index % 2 === 0 ? 'rotate-2' : '-rotate-2'} hover:rotate-0 transition-transform duration-300`}>
-              <div className="border-4 border-black bg-card">
+              <div className="border-4 border-black bg-card overflow-hidden">
                 <ImageWithFallback
                   src={image.src}
                   alt={image.alt}
-                  className="w-full h-64 object-cover"
+                  className="w-full aspect-sqaure object-cover"
                   style={image.objectPosition ? { objectPosition: image.objectPosition } : undefined}
                 />
               </div>
