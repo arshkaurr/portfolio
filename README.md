@@ -2,7 +2,7 @@
   # My portfolio website
 
   This is a code bundle for my portfolio website. 
-  Designed + (vibe) coded with with figma and AI codex.
+  Designed + (vibe) coded with with figma and OpenAI codex.
   Deployed using vercel.
 
   ## Running the code
