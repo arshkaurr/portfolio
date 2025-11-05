@@ -35,6 +35,18 @@ export function Projects() {
       ],
       color: "bg-lime-400",
       date: "August 2025"
+    },
+    {
+      title: "FPGA Music Player",
+      description: "Digital Logic & Computer Organization capstone project implementing a hardware music player from scratch",
+      tech: ["Verilog", "Quartus Prime", "FPGA", "RTL Design"],
+      highlights: [
+        "Designed combinational and sequential logic modules (latches, counters, FSMs) to drive audio, switch, and LED outputs",
+        "Integrated RTL components and verified behavior through simulation and on-board testing",
+        "Deployed the complete system on an FPGA development board using Quartus Prime workflows"
+      ],
+      color: "bg-amber-300",
+      date: "October 2025"
     }
   ];
 

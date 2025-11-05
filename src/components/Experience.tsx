@@ -13,11 +13,12 @@ export function Experience() {
       color: "bg-pink-500"
     },
     {
-      title: "Backend Developer",
-      company: "Generative AI At Cornell",
+      title: "Full-Stack Developer",
+      company: "Generative AI at Cornell",
       period: "February 2025 - Present",
       highlights: [
-        "Optimizing backend database workflows for AI-driven applications using Supabase, PostgreSQL, and TypeScript"
+        "Engineered QuickFi Due Diligence Agent using Supabase and PostgreSQL APIs to automate vendor verification and cut review time by 60%",
+        "Developing AI-Powered Borrower Registration & RFP Autofill App for Bridge Marketplace to extract, validate, and auto-populate borrower data with confidence scoring"
       ],
       color: "bg-cyan-400"
     },
@@ -27,7 +28,8 @@ export function Experience() {
       period: "July 2025 - Present",
       highlights: [
         "Leading initiatives to integrate allyship as a core value across WICC's 40 person executive board",
-        "Organized WICC's first general meeting in partnership with First Generation Student Union to recruit freshmen"
+        "Created a comprehensive checklist of resources for executive board members to embed allyship into every position",
+        "Organized partnerships with First Gen Student Union and Society of Hispanic Professional Engineers to deliver allyship and advocacy workshops"
       ],
       color: "bg-lime-400"
     }
