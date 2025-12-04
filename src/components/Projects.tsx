@@ -37,13 +37,13 @@ export function Projects() {
       date: "August 2025"
     },
     {
-      title: "FPGA Music Player",
-      description: "Digital Logic & Computer Organization capstone project implementing a hardware music player from scratch",
+      title: "TinyRV1 Processor",
+      description: "Digital Logic & Computer Organization capstone project implementing a single cycle TinyRV1 Processor",
       tech: ["Verilog", "Quartus Prime", "FPGA", "RTL Design"],
       highlights: [
-        "Designed combinational and sequential logic modules (latches, counters, FSMs) to drive audio, switch, and LED outputs",
-        "Integrated RTL components and verified behavior through simulation and on-board testing",
-        "Deployed the complete system on an FPGA development board using Quartus Prime workflows"
+       "Designed and implemented a single-cycle TinyRV1 processor in Verilog using Quartus Prime, synthesized to an FPGA as part of an embedded system",
+       "Wrote assembly programs (including an accumulate loop and door-monitor counter for a distance sensor) for hardware",
+       "Designed a specialized accumulate accelerator datapath with an FSM-based control unit and evaluated tradeoffs"
       ],
       color: "bg-amber-300",
       date: "October 2025"
