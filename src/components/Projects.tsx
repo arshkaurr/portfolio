@@ -65,6 +65,10 @@ export function Projects() {
         href: "https://github.com/arshkaurr/local-broadcast-finder",
         label: "See the code here"
       },
+      link_2: {
+        href: "https://localwave.lovable.app/",
+        label: "See the website here"
+      },
       color: "bg-pink-500",
       date: "January 2026"
     }
@@ -124,6 +128,18 @@ export function Projects() {
                       className="inline-flex items-center font-black text-sm gap-2"
                     >
                       <span className="border-b-2 border-current pb-0.5">{project.link.label}</span>
+                    </a>
+                  </div>
+                )}
+                {project.link_2 && (
+                  <div className="mt-6">
+                    <a
+                      href={project.link_2.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center font-black text-sm gap-2"
+                    >
+                      <span className="border-b-2 border-current pb-0.5">{project.link_2.label}</span>
                     </a>
                   </div>
                 )}
