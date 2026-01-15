@@ -8,6 +8,10 @@ export function Projects() {
         "Built backend with Python (SQLAlchemy and Flask) to enable secure and location-aware ride matching",
         "Deployed Dockerized backend on Google Cloud using Ubuntu for scalable performance"
       ],
+        link: {
+        href: "https://github.com/arshkaurr/bigredrides",
+        label: "See the code here"
+      },
       color: "bg-pink-500",
       date: "November 2024"
     },
@@ -39,14 +43,30 @@ export function Projects() {
     {
       title: "TinyRV1 Processor",
       description: "Digital Logic & Computer Organization capstone project implementing a single cycle TinyRV1 Processor",
-      tech: ["Verilog", "Quartus Prime", "FPGA", "RTL Design"],
+      tech: ["Verilog", "Quartus Prime", "FPGA", "RTL Design", "Assembly"],
       highlights: [
        "Designed and implemented a single-cycle TinyRV1 processor in Verilog using Quartus Prime, synthesized to an FPGA as part of an embedded system",
        "Wrote assembly programs (including an accumulate loop and door-monitor counter for a distance sensor) for hardware",
        "Designed a specialized accumulate accelerator datapath with an FSM-based control unit and evaluated tradeoffs"
       ],
-      color: "bg-amber-300",
+      color: "bg-lime-400",
       date: "October 2025"
+    },
+        {
+      title: "localwave",
+      description: "Find your local radio station whereever you go.",
+      tech: ["Typescript", "CSS", "HTML", "React", "Lovable"],
+      highlights: [
+       "Integrated open-source Radio Browser API to pull location specific radio stations",
+       "Used low-code tools to design frontend and integrate with written backend",
+       "Iterating on in order to allow radio stations to promote their stations higher on findings"
+      ],
+      link: {
+        href: "https://github.com/arshkaurr/local-broadcast-finder",
+        label: "See the code here"
+      },
+      color: "bg-pink-500",
+      date: "January 2026"
     }
   ];
 

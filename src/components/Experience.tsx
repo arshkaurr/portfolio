@@ -23,6 +23,17 @@ export function Experience() {
       color: "bg-cyan-400"
     },
     {
+      title: "Web Developer Lead",
+      company: "Computational Sustainability Club",
+      period: "July 2025 - Present",
+      highlights: [
+        "In Fall 2025: revamped Ithaca Reuse's employee facing platform using React",
+        "Leading Web Development team in Spring 2026 in order to teach new members tools like Django, React, GitHub",
+        "Continuing to work with Ithaca Reuse to revamp their emplyee facing platform"
+      ],
+      color: "bg-lime-400"
+    },
+    {
       title: "Allyship Co-Director",
       company: "Women in Computing at Cornell",
       period: "July 2025 - Present",
@@ -31,7 +42,7 @@ export function Experience() {
         "Created a comprehensive checklist of resources for executive board members to embed allyship into every position",
         "Organized partnerships with First Gen Student Union and Society of Hispanic Professional Engineers to deliver allyship and advocacy workshops"
       ],
-      color: "bg-lime-400"
+      color: "bg-pink-500"
     }
   ];
 
@@ -43,7 +54,7 @@ export function Experience() {
       
       <div className="max-w-6xl mx-auto px-4">
         <h2 className="text-6xl font-black mb-16 text-center tracking-tighter transform rotate-1">
-          WORK EXPERIENCE
+          EXPERIENCE AND EXTRACURRICULARS
         </h2>
         
         <div className="space-y-12">
