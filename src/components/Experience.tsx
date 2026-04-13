@@ -17,8 +17,9 @@ export function Experience() {
       company: "Generative AI at Cornell",
       period: "February 2025 - Present",
       highlights: [
-        "Engineered QuickFi Due Diligence Agent using Supabase and PostgreSQL APIs to automate vendor verification and cut review time by 60%",
-        "Developing AI-Powered Borrower Registration & RFP Autofill App for Bridge Marketplace to extract, validate, and auto-populate borrower data with confidence scoring"
+        "Building central database and calendar for the NYS Food Processors with a RAG Chatbot and agent to update resource database",
+        "Engineered QuickFi Due Diligence Agent using Supabase and PostgreSQL to automate vendor verification, reducing review time",  
+        "Developed AI-Powered Borrower Registration \& RFP Autofill App for Bridge Marketplace"
       ],
       color: "bg-cyan-400"
     },

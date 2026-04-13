@@ -52,7 +52,41 @@ export function Projects() {
       color: "bg-lime-400",
       date: "October 2025"
     },
-        {
+    {
+      title: "AI Market Intelligence & Sentiment",
+      description: "Market intelligence pipeline analyzing AI-sector financial metrics and news sentiment for bubble signals",
+      tech: ["Python", "Pandas", "Matplotlib", "VADER", "TextBlob", "RoBERTa", "BERTopic"],
+      highlights: [
+        "Built a pipeline combining market data with news sentiment to track AI-sector “bubble” dynamics",
+        "Applied NLP models and topic modeling to quantify sentiment across AI news articles",
+        "Visualized sentiment vs. market movement to surface event-driven signals and valuation trends"
+      ],
+      color: "bg-cyan-400",
+      date: "November 2025 - Present"
+    },
+    {
+      title: "Bridge Marketplace RFP Autofill App",
+      description: "AI-powered borrower registration and RFP autofill tool for small business loan applications",
+      tech: ["AI/ML", "Supabase", "PostgreSQL", "RAG"],
+      highlights: [
+        "Developed AI-assisted workflows to auto-populate RFP responses from borrower data",
+        "Improved turnaround time for loan applications by streamlining document completion"
+      ],
+      color: "bg-pink-500",
+      date: "2025"
+    },
+    {
+      title: "NYS Food Processors RAG Chatbot",
+      description: "Centralized database and calendar with a RAG chatbot to keep processor resources up to date",
+      tech: ["RAG", "PostgreSQL", "Supabase", "AI/ML"],
+      highlights: [
+        "Built a central resource database and calendar for New York State food processors",
+        "Created a chatbot and agent to update and retrieve structured resource data"
+      ],
+      color: "bg-lime-400",
+      date: "2025 - Present"
+    },
+    {
       title: "localwave",
       description: "Find your local radio station whereever you go.",
       tech: ["Typescript", "CSS", "HTML", "React", "Lovable"],
