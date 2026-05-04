@@ -55,7 +55,7 @@ export function Projects() {
     {
       title: "AI Market Intelligence & Sentiment",
       description: "Market intelligence pipeline analyzing AI-sector financial metrics and news sentiment for bubble signals",
-      tech: ["Python", "Pandas", "Matplotlib", "VADER", "TextBlob", "RoBERTa", "BERTopic"],
+      tech: ["Python", "Pandas", "Matplotlib", "VADER", "TextBlob", "RoBERTa", "Transformers", "BERTopic"],
       highlights: [
         "Built a pipeline combining market data with news sentiment to track AI-sector “bubble” dynamics",
         "Applied NLP models and topic modeling to quantify sentiment across AI news articles",
