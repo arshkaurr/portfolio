@@ -1,16 +1,17 @@
 export function Experience() {
   const experiences = [
     {
-      title: "Full-Stack Development Intern",
-      company: "KamelRide",
-      period: "July 2025 - September 2025",
+      title: "Strategic AI Intern",
+      company: "Fanatics",
+      period: "May 2026 - Present",
       highlights: [
-        "Built Firebase magic-link authentication and onboarding flow, streamlining sign-in and boosting retention",
-        "Developed college-based filtering with dynamic badge display, enhancing student discovery and engagement",
-        "Designed and optimized RESTful APIs for rides, bookings, payments, and authentication",
-        "Secured platform with authentication, authorization, and data validation while working in Agile sprints"
+        "Built automated Python scrapers for player-data and Instagram/Twitter audience retrieval, aiding competitive research",
+        "Built a full-stack relationship-management CRM (Claude Code, custom FastMCP-Notion sync) adopted by a 5-person team",
+        "Deployed Airtable automations (Claude, Slack, Google Sheets APIs) for photo-based expense logging and mention tracking",
+        "Shipped internal tools to a shared hosting platform with centralized auth and AI backend, using secure secrets management",
+        "Authored onboarding guides and best-practice documentation for Claude AI tooling, driving adoption across the wider VIP team"
       ],
-      color: "bg-pink-500"
+      color: "bg-amber-300"
     },
     {
       title: "Full-Stack Developer",
@@ -18,32 +19,41 @@ export function Experience() {
       period: "February 2025 - Present",
       highlights: [
         "Building central database and calendar for the NYS Food Processors with a RAG Chatbot and agent to update resource database",
-        "Engineered QuickFi Due Diligence Agent using Supabase and PostgreSQL to automate vendor verification, reducing review time",  
+        "Engineered QuickFi Due Diligence Agent using Supabase and PostgreSQL to automate vendor verification, reducing review time",
         "Developed AI-Powered Borrower Registration \& RFP Autofill App for Bridge Marketplace"
       ],
       color: "bg-cyan-400"
     },
     {
-      title: "Web Developer Lead",
-      company: "Computational Sustainability Club",
-      period: "July 2025 - Present",
+      title: "Full-Stack Development Intern",
+      company: "KamelRide",
+      period: "July 2025 - September 2025",
       highlights: [
-        "In Fall 2025: revamped Ithaca Reuse's employee facing platform using React",
-        "Leading Web Development team in Spring 2026 in order to teach new members tools like Django, React, GitHub",
-        "Continuing to work with Ithaca Reuse to revamp their emplyee facing platform"
+        "Built Firebase magic-link authentication and onboarding flow, streamlining sign-in and boosting retention",
+        "Developed college-based filtering with dynamic badge display, enhancing student discovery and engagement",
+        "Designed and implemented RESTful APIs and PostgreSQL schemas for users, rides, bookings, payments, and authentication"
       ],
-      color: "bg-lime-400"
+      color: "bg-pink-500"
+    },
+    {
+      title: "VP of Community",
+      company: "Women in Computing at Cornell",
+      period: "August 2026 - Present",
+      highlights: [
+        "Manage 6 executive board members, facilitating socials, mentorship, and allyship programming for the CS community",
+        "Oversee budgeting and financial operations for the community team's initiatives"
+      ],
+      color: "bg-purple-500"
     },
     {
       title: "Allyship Co-Director",
       company: "Women in Computing at Cornell",
-      period: "July 2025 - Present",
+      period: "July 2025 - August 2026",
       highlights: [
-        "Leading initiatives to integrate allyship as a core value across WICC's 40 person executive board",
-        "Created a comprehensive checklist of resources for executive board members to embed allyship into every position",
-        "Organized partnerships with First Gen Student Union and Society of Hispanic Professional Engineers to deliver allyship and advocacy workshops"
+        "Led initiatives to integrate allyship as a core value across WICC's 40-person executive board, providing comprehensive resources",
+        "Organized partnerships with student organizations to give workshops on allyship, advocacy & responsible AI"
       ],
-      color: "bg-pink-500"
+      color: "bg-lime-400"
     }
   ];
 

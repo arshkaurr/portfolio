@@ -2,12 +2,12 @@ export function Skills() {
   const skillCategories = [
     {
       title: "PROGRAMMING LANGUAGES",
-      skills: ["OCaml", "Python", "Java", "TypeScript", "JavaScript", "SQL", "Verilog"],
+      skills: ["C (in progress)", "OCaml", "Python", "Java", "TypeScript", "JavaScript", "SQL", "Verilog/SystemVerilog"],
       color: "bg-pink-500"
     },
     {
       title: "FRAMEWORKS & LIBRARIES",
-      skills: ["React", "Node.js", "Express", "Flask", "PostgreSQL", "Firebase", "Supabase", "Docker"],
+      skills: ["Numpy", "Pandas", "React", "Node.js", "Express", "Flask", "PostgreSQL", "Firebase", "Supabase", "Docker", "Django", "FastMCP"],
       color: "bg-cyan-400"
     },
     {
@@ -17,7 +17,7 @@ export function Skills() {
     },
     {
       title: "TOOLS & PLATFORMS",
-      skills: ["Git", "Linux", "Google Cloud", "Quartus Prime", "Figma", "Tailwind CSS", "VS Code"],
+      skills: ["Git", "Linux", "Google Cloud", "Quartus Prime", "Figma", "Tailwind CSS", "VS Code", "Claude Code"],
       color: "bg-lime-400"
     }
   ];

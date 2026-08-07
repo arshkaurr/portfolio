@@ -50,7 +50,7 @@ export function Projects() {
        "Designed a specialized accumulate accelerator datapath with an FSM-based control unit and evaluated tradeoffs"
       ],
       color: "bg-lime-400",
-      date: "October 2025"
+      date: "November 2025"
     },
     {
       title: "AI Market Intelligence & Sentiment",

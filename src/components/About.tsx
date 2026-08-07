@@ -14,7 +14,7 @@ export function About() {
             
             <div className="bg-black text-white p-6 mb-6 transform rotate-1">
               <p className="text-lg leading-relaxed">
-                I'm a <span className="bg-pink-500 text-black px-2 py-1 font-black">SOPHOMORE</span> at Cornell University 
+                I'm a <span className="bg-pink-500 text-black px-2 py-1 font-black">JUNIOR</span> at Cornell University
                 studying Computer Science with a minor in AI. When I'm not building full-stack applications 
                 or optimizing backend systems, you'll find me creating intricate nail art designs.
               </p>
@@ -34,9 +34,9 @@ export function About() {
             <div className="bg-pink-500 text-white p-6 transform rotate-2">
               <h3 className="text-2xl font-black mb-4">CURRENTLY</h3>
               <ul className="space-y-2 text-lg">
-                <li>• Backend Developer at Generative AI At Cornell</li>
-                <li>• Allyship Co-Director at Women in Computing</li>
-                <li>• Building cool projects with React & Python</li>
+                <li>• Strategic AI Intern at Fanatics</li>
+                <li>• Full-Stack Developer at Generative AI at Cornell</li>
+                <li>• VP of Community at Women in Computing at Cornell</li>
               </ul>
             </div>
             
@@ -46,7 +46,8 @@ export function About() {
                 <li>• Nail art & creative design</li>
                 <li>• Working out & staying active</li>
                 <li>• NYT crossword puzzles</li>
-                <li>• Learning new programming languages</li>
+                <li>• Coffee & matcha</li>
+                <li>• Marvel movies</li>
               </ul>
             </div>
             
